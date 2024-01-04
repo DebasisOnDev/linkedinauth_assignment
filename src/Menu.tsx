@@ -1,4 +1,3 @@
-import React from "react";
 import { BiSolidBolt } from "react-icons/bi";
 import { FaCheck } from "react-icons/fa6";
 import { AiOutlineExpand } from "react-icons/ai";
@@ -21,7 +20,7 @@ const Menu = () => {
         </div>
         <span className=" w-full  shadow-sm shadow-gray-300 h-[2px] "></span>
         <div className=" px-4 py-4 flex flex-col gap-5 w-full h-full bg-gray-200 bg-opacity-50">
-          <div className=" flex gap-3 font-semibold ">
+          <div className=" flex gap-3 font-semibold cursor-pointer ">
             <span className=" flex items-center justify-center">
               <BiSolidBolt />
             </span>
@@ -29,7 +28,7 @@ const Menu = () => {
               Generate content ideas
             </span>
           </div>
-          <div className=" flex gap-3 font-semibold ">
+          <div className=" flex gap-3 font-semibold cursor-pointer ">
             <span className=" flex items-center justify-center">
               <FaCheck />
             </span>
@@ -37,7 +36,7 @@ const Menu = () => {
               Fix grammatical issues
             </span>
           </div>
-          <div className=" flex gap-3 font-semibold ">
+          <div className=" flex gap-3 font-semibold cursor-pointer ">
             <span className=" flex items-center justify-center">
               <AiOutlineExpand size={14} />
             </span>
@@ -45,13 +44,13 @@ const Menu = () => {
               Expand and elaborate
             </span>
           </div>
-          <div className=" flex gap-3 font-semibold ">
+          <div className=" flex gap-3 font-semibold cursor-pointer ">
             <span className=" flex items-center justify-center">
               <TbReload />
             </span>
             <span className=" text-opacity-70 text-black">Rewrite</span>
           </div>
-          <div className=" flex gap-3 font-semibold ">
+          <div className=" flex gap-3 font-semibold cursor-pointer ">
             <span className="  flex items-center justify-center">
               <MdOutlineAdd size={18} />
             </span>
